@@ -13,7 +13,7 @@ export function Contact() {
                 <span className="contact">☎️ (403 - 615 - 7302)</span>
                 <span className="contact">📪 devinleamy@gmail.com</span>
             </div>
-            <div className="contact-me-info-more" style={{marginTop: "15px"}}>
+            <div className="contact-me-info-more" style={{marginTop: "50px"}}>
                 Also, check out  my 
                 <span className="text-blue">→ </span>
                 <a href="https://github.com/DevinLeamy" className='text-pink'>Github</a> 
