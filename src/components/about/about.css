@@ -1,0 +1,31 @@
+.about-container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.about-formula {
+    font-size: 30px;
+    font-family: 'poppins-semibold';
+    padding: 10px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 20px;
+}
+
+.about-goal {
+    text-align: center;
+    font-size: 24px;
+}
+
+.about-knowledge {
+    margin-top: 50px;
+    font-size: 22px;
+    font-family: 'poppins-semibold';
+    width: 100%;
+}
+
+.about-knowledge-list {
+    font-size: 20px;
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+.navbar-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(250, 250, 250);
+}
+
+.navbar-border {
+    border-bottom: 2px solid rgb(226, 226, 226);
+}
+
+.nav-item {
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    font-family: 'poppins-semibold';
+    border-bottom: 2px solid rgb(0, 153, 255);
+    /* border-radius: 10%; */
+}
+
+.brand-item {
+    position: absolute;
+    left: 10px;
+    font-size: 50px;
+    font-family: 'quacker';
+    line-height: 50px;
+}
+
+.nav-item:hover {
+    background-color: rgba(0, 153, 255, 0.1);
+    cursor: pointer;
+}
+

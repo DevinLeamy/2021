@@ -1,0 +1,157 @@
+.splash-container {
+    width: 100%;
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-center-piece {
+    margin-top: -15%;
+    width: 700px;
+    height: 500px;
+    /* display: flex; */
+    /* align-items: center; */
+
+}
+
+
+
+.splash-image {
+    margin: auto;
+    height: 250px;
+    width: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/images/me.jpg");
+    background-size: contain;
+    border-radius: 50%;
+    border: solid 2px white;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+.intro-text {
+    width: 100%;
+    /* background-color: orange; */
+    font-family: "poppins-semibold";
+    font-size: 50px;
+    text-align: center;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+     -ms-animation: fadein 3s; /* Internet Explorer */
+      -o-animation: fadein 3s; /* Opera < 12.1 */
+         animation: fadein 3s;
+}
+
+.intro-about {
+    margin-top: 30px;
+    width: 100%;
+    font-family: "poppins-medium";
+    font-size: 25px;
+    text-align: left;
+    -webkit-animation: slide 2s forwards;
+    animation: slide 2s forwards;
+}
+
+.intro-about-list, li {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#about-item-1 {
+    -webkit-animation: slide calc(5s) forwards;
+    animation: slide calc(5s) forwards;
+}
+
+#about-item-2 {
+    -webkit-animation: slide calc(5.25s) forwards;
+    animation: slide calc(5.25s) forwards;
+}
+
+#about-item-3 {
+    -webkit-animation: slide calc(5.5s) forwards;
+    animation: slide calc(5.5s) forwards;
+}
+
+#about-item-4 {
+    -webkit-animation: slide calc(5.75s) forwards;
+    animation: slide calc(5.75s) forwards;
+}
+
+.arrow-down {
+    border-radius: 5px;
+    opacity: 1;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 60px;
+    text-align: center;
+    border: 2px solid rgb(49, 49, 49);
+    color: rgb(4, 190, 223);
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    font-size: 50px;
+    margin: auto;
+    -webkit-animation: jump 8s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: jump 8s; /* Firefox < 16 */
+     -ms-animation: jump 8s; /* Internet Explorer */
+      -o-animation: jump 8s; /* Opera < 12.1 */
+         animation: jump 8s;
+
+}
+
+.arrow-down:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes slide {
+    100% { transform: translateX(-100%); }
+}
+
+@keyframes slide {
+    0% { opacity: 0; }
+    50% { transform: translateX(-25%); opacity: 0; }
+    100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes jump {
+    from { opacity: 0; }
+    40% { opacity: 0; }
+    50% { transform: rotate(25deg); }
+    60% { transform: rotate(-25deg); }
+    70% { transform: rotate(25deg); }
+    80% { transform: rotate(-25deg); }
+    90% { transform: rotate(25deg); }
+    to   { transform: rotate(0deg); }
+}
