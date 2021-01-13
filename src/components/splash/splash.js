@@ -32,7 +32,7 @@ export function Splash() {
                         <li id='about-item-4'>
                             👍 One more thing: I'm currently looking for a summer 2021 
                             <span className="text-pink"> SWE </span> internship (
-                            <a href="https://github.com/DevinLeamy/2021/tree/main/src/assets/resume/Resume9.pdf" className="text-blue">resume</a>).                            
+                            <a href="https://github.com/DevinLeamy/2021/tree/main/src/assets/resume/Resume10.pdf" className="text-blue">resume</a>).                            
                         </li>
                     </ul>
                 </div>
