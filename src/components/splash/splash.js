@@ -16,10 +16,10 @@ export function Splash() {
                         <li id='about-item-1'>
                             🎓 I'm a 
                             <span className="text-pink"> Computer Science </span>
-                            student at the University of Waterloo (class of 2025 represent)
+                            student at the University of Waterloo (class of 2025 represent).
                         </li>
                         <li id='about-item-2'>
-                            💻 I'm passionate about solving problems with code
+                            💻 I'm passionate about solving problems with code.
                             
                             {/* <span className="text-pink"> solving problems </span> */}
                             
@@ -31,9 +31,8 @@ export function Splash() {
                         </li>
                         <li id='about-item-4'>
                             👍 One more thing: I'm currently looking for a summer 2021 
-                            <span className="text-pink"> SWE </span> internship.
-
-                            
+                            <span className="text-pink"> SWE </span> internship (
+                            <a href="https://github.com/DevinLeamy/2021/tree/main/src/assets/resume/Resume9.pdf" className="text-blue">resume</a>).                            
                         </li>
                     </ul>
                 </div>
