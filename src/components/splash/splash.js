@@ -26,7 +26,7 @@ export function Splash() {
                         </li>
                         <li id='about-item-3'>
                             🌱 And, I'm
-                            <span className="text-pink"> always </span>
+                            <span className="text-blue"> always </span>
                             looking for ways to improve my skill set and tackle new problems.
                         </li>
                         {/* <li id='about-item-4'>
