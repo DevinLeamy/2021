@@ -11,22 +11,17 @@
     margin-top: -15%;
     width: 700px;
     height: 500px;
-    /* display: flex; */
-    /* align-items: center; */
-
 }
-
-
 
 .splash-image {
     margin: auto;
-    height: 250px;
-    width: 250px;
-    background-position: center center;
+    height: 350px;
+    width: 350px;
+    background-position: center left;
     background-repeat: no-repeat;
-    background-image: url("../../assets/images/me.jpg");
-    background-size: contain;
-    border-radius: 50%;
+    background-image: url("../../assets/images/me2.jpg");
+    background-size: cover;
+    border-radius: 30%;
     border: solid 2px white;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -37,9 +32,8 @@
 
 .intro-text {
     width: 100%;
-    /* background-color: orange; */
     font-family: "poppins-semibold";
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -52,15 +46,15 @@
     margin-top: 30px;
     width: 100%;
     font-family: "poppins-medium";
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
     -webkit-animation: slide 2s forwards;
     animation: slide 2s forwards;
 }
 
 .intro-about-list, li {
-    margin-top: 5px;
-    font-size: 20px;
+    margin-top: 15px;
+    font-size: 18px;
 }
 
 #about-item-1 {
@@ -93,7 +87,7 @@
     text-align: center;
     border: 2px solid rgb(49, 49, 49);
     color: rgb(4, 190, 223);
-    background-color: white;
+    /* background-color: white; */
     position: absolute;
     bottom: 50px;
     font-size: 50px;
@@ -109,7 +103,6 @@
 .arrow-down:hover {
     cursor: pointer;
     background-color: black;
-    color: white;
 }
 
 @keyframes fadein {

@@ -10,14 +10,18 @@ body, html {
 
 body {
   font-family: 'poppins-medium';
-  background-color: rgb(252, 252, 252);
-  color: rgb(29, 29, 29);
+  /* background-color: rgb(252, 252, 252); */
+  /* color: rgb(29, 29, 29); */
+  color: rgb(250, 250, 250);
+  background-color: rgb(29, 29, 29);
+
   background-size: cover;
   background-position: center center;
 }
 
 ::selection {
-    background: rgb(120, 201, 255);
+    /* background: rgb(120, 201, 255); */
+    background: rgb(11, 98, 230);
 }
 
 /* Change cursor color */
@@ -216,8 +220,8 @@ a:active { text-decoration: none; }
 }
 
 /* Colors */
-.text-pink { color: rgb(226, 21, 216); }
+.text-orange { color: rgb(255, 102, 0); }
 .text-green { color: rgb(1, 218, 1); }
 .text-blue { color: rgb(43, 165, 247); }
-.text-red { color: red; }
-.text-light { color: rgb(94, 94, 94); }
+.text-red { color: rgb(247, 67, 67); }
+.text-light { color: rgb(150, 148, 148); }

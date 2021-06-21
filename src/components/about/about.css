@@ -3,10 +3,11 @@
     max-width: 800px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 90px;
 }
 
 .about-formula {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'poppins-semibold';
     padding: 10px;
     border: 2px solid rgb(224, 224, 224);
@@ -15,17 +16,21 @@
 
 .about-goal {
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .about-knowledge {
     margin-top: 50px;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'poppins-semibold';
     width: 100%;
 }
 
 .about-knowledge-list {
-    font-size: 20px;
     width: 100%;
+}
+
+.about-knowledge-list li {
+    font-size: 16px;
+    margin-top: 15px;
 }

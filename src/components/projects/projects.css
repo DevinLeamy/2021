@@ -3,6 +3,11 @@
     margin-top: 30px;
 }
 
+.projects-container-header {
+    font-size: 20px;
+    font-family: 'poppins-semibold';
+}
+
 .projects-intro-text {
     width: 100%;
     font-size: 22px;
@@ -13,11 +18,12 @@
 .project {
     width: 100%;
     max-width: 800px;
-    padding: 10px;
+    padding: 15px;
+    box-sizing: border-box;
     margin-top: 30px;
     border-radius: 10px;
-    background-color: white;
-    border: 1px solid white;
+    /* background-color: white; */
+    border: 1px solid rgb(201, 201, 201);
     box-shadow: 0 4px 5px 0 rgba(100,100,100,0.16),0 8px 10px 0 rgba(100,100,100,0.12);
 }
 
@@ -32,18 +38,18 @@
 
 .project-name {
     font-family: "momcake";
-    font-size: 30px;
+    font-size: 26px;
     color: rgb(43, 165, 247);
 }
 
 .project-name-subtext {
     color: rgb(170, 170, 170);
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'poppins-medium';
 }
 
 .project-date {
-    color: black;
+    color: rgb(201, 201, 201);
     font-family: 'momcake';
     font-size: 20px;
     float: right;
@@ -52,6 +58,10 @@
 
 .project-tools {
     margin-top: 20px;
+}
+
+.featured-project-tool {
+    border-bottom: 2px solid #77aaff !important;
 }
 
 .project-tool {
