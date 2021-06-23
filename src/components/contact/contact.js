@@ -15,8 +15,8 @@ export const Contact = () => {
       </div>
       <div className="contact-me-info-more" style={{ marginTop: "50px" }}>
         Also, check out my
-        <span className="text-blue">→ </span>
-        <a href="https://github.com/DevinLeamy" className="text-orange">
+        <span className="text-blue"> → </span>
+        <a href="https://github.com/DevinLeamy" className="text-blue">
           Github
         </a>
         <span className="text-blue"> ←</span>

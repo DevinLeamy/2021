@@ -1,9 +1,18 @@
 import "./projects.css";
 import { projects } from "./project-data";
+import CloudIcon from "@material-ui/icons/Cloud";
+import { useMediaPredicate } from "react-media-hook";
 
 export const Projects = () => {
+  // On a small device
+  const small = useMediaPredicate("(max-width: 700px)");
+
   // Markup project tools
   const renderTools = (tools) => {
+    if (small) {
+      // Only display two tools on small devices
+      tools = tools.slice(0, 2);
+    }
     return <>
         <span className="project-tool featured-project-tool">{tools[0]}</span>
         {tools.slice(1).map(tool => {
@@ -15,7 +24,7 @@ export const Projects = () => {
   const renderLink = (link) => {
     return (
       <span className="project-link">
-        <i className="fas fa-cloud text-blue"></i>{" "}
+        <CloudIcon className="text-blue cloud-icon" />{" "}
         <a href={link} className="text-light">Link to Code</a>
       </span>
     );
@@ -29,9 +38,10 @@ export const Projects = () => {
           <span className="project-name-subtext">
             {` - ${project.subtext}`} 
           </span>
-          <span className="project-date">
+          {/* Only display on large devices */}
+          {!small && <span className="project-date">
             {project.endDate}
-          </span>
+          </span>}
         </div>
        <div className="project-tools">
           {renderTools(project.tools)}

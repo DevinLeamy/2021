@@ -77,3 +77,13 @@
     float: right;
 }
 
+.cloud-icon {
+    transform: translateY(5px);
+}
+
+@media only screen and (max-width: 700px) {
+    .projects-container {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+}

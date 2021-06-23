@@ -19,6 +19,12 @@
     font-size: 22px;
 }
 
+.about-goal-max {
+    font-size: 25px;
+    color: rgb(100, 100, 100);
+    line-height: 55px;
+}
+
 .about-knowledge {
     margin-top: 50px;
     font-size: 20px;
@@ -33,4 +39,33 @@
 .about-knowledge-list li {
     font-size: 16px;
     margin-top: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    .about-container {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 0px;
+    }
+
+    .about-formula {
+        font-size: 20px;
+    }
+
+    .about-goal {
+        font-size: 17px;
+    }
+
+    .about-goal-max {
+        font-size: 20px;
+    }
+    
+    .about-knowledge {
+        font-size: 20px;
+    }
+
+    .about-knowledge-list {
+        width: fit-content;
+    }
 }

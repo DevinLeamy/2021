@@ -1,28 +1,24 @@
 .splash-container {
     width: 100%;
-    height: calc(100vh - 50px);
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100vh;
+    position: relative;
 }
 
 .splash-center-piece {
-    margin-top: -15%;
+    padding-top: calc(50% - 200px);
     width: 700px;
-    height: 500px;
 }
 
 .splash-image {
     margin: auto;
-    height: 350px;
     width: 350px;
+    height: 425px;
     background-position: center left;
     background-repeat: no-repeat;
-    background-image: url("../../assets/images/me2.jpg");
+    background-image: url("../../assets/images/me3.jpeg");
     background-size: cover;
-    border-radius: 30%;
-    border: solid 2px white;
+    border-radius: 10%;
+    /* border: solid 2px white; */
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
      -ms-animation: fadein 2s; /* Internet Explorer */
@@ -79,7 +75,6 @@
 
 .arrow-down {
     border-radius: 5px;
-    opacity: 1;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -87,11 +82,10 @@
     text-align: center;
     border: 2px solid rgb(49, 49, 49);
     color: rgb(4, 190, 223);
-    /* background-color: white; */
     position: absolute;
     bottom: 50px;
+    left: calc(50% - 15px);
     font-size: 50px;
-    margin: auto;
     -webkit-animation: jump 8s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: jump 8s; /* Firefox < 16 */
      -ms-animation: jump 8s; /* Internet Explorer */
@@ -102,7 +96,6 @@
 
 .arrow-down:hover {
     cursor: pointer;
-    background-color: black;
 }
 
 @keyframes fadein {
@@ -148,3 +141,34 @@
     90% { transform: rotate(25deg); }
     to   { transform: rotate(0deg); }
 }
+
+@media only screen and (max-width: 700px) {
+    .splash-container {
+        padding: 10px;
+        margin-top: 0px;
+        box-sizing: border-box;
+    }
+    .splash-center-piece {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    .splash-image {
+        width: 200px;
+        height: 250px;
+    }
+    .intro-text {
+        font-size: 7vw;
+    }
+    .intro-about {
+        font-size: 20px;
+    }
+
+    .intro-about-list, li {
+        font-size: 17px;
+    }
+
+    .arrow-down {
+        visibility: hidden;
+    }
+}
+

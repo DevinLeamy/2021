@@ -13,12 +13,13 @@ export function About() {
   ];
   const technologies = [
     "React",
-    "Node",
+    "Node JS",
     "Angular",
     "Express",
     "MongoDB",
     "Docker",
-    "Pygame"
+    "Pygame",
+    "Flask"
   ];
   const hosting = [
     "Heroku",
@@ -43,13 +44,7 @@ export function About() {
         Mission<span className="text-blue">:</span>
         <div className="about-goal">
           f(<span className="text-blue">experience</span>) = talent
-          <span
-            style={{
-              fontSize: "25px",
-              color: "rgb(100, 100, 100)",
-              lineHeight: "55px"
-            }}
-          >
+          <span className="about-goal-max">
             {" "}
             ← maximize
           </span>

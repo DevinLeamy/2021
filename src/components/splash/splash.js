@@ -7,7 +7,7 @@ export const Splash = () => {
         <div className="splash-image"></div>
         <div className="intro-text">
           Hi, I'm Devin
-          <span className="text-blue" style={{ fontSize: "50px" }}>
+          <span className="text-blue">
             .
           </span>
           <br />
