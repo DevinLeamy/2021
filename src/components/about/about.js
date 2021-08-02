@@ -4,12 +4,13 @@ export function About() {
   const languages = [
     "Typescript", 
     "C++",
+    "C",
     "Javascript",
     "Java",
     "Python",
     "Racket",
     "HTML",
-    "CSS"
+    "CSS",
   ];
   const technologies = [
     "React",
@@ -19,25 +20,20 @@ export function About() {
     "MongoDB",
     "Docker",
     "Pygame",
-    "Flask"
+    "Flask",
+    "K8s"
   ];
   const hosting = [
     "Heroku",
-    "Github Pages"
+    "Github Pages",
+    "AWS"
   ];
   const dabbled = [
     "Swift",
     "C#",
-    "C",
     "XCode",
-    "Unity",
-    "AWS"
+    "Unity"
   ];
-  // Sort
-  languages.sort();
-  technologies.sort();
-  hosting.sort();
-  dabbled.sort();
   return (
     <div className="about-container" id="_"> {/* id serves as endpoint for the arrow link */}
       <div className="about-formula">

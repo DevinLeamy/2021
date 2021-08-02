@@ -1,5 +1,15 @@
 const projects = [
   {
+    name: "MNIST In C",
+    subtext: "Throwing PyTorch to the curb",
+    startDate: "07/2021",
+    endDate: "07/2021",
+    tools: [
+      "C"
+    ],
+    link: "https://github.com/DevinLeamy/MNIST-In-C"
+  },
+  {
     name: "NEAT Parkour",
     subtext: "Mastering a 2D Platformer w/ NEAT",
     startDate: "04/2021",
