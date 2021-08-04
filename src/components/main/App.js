@@ -2,6 +2,7 @@ import './App.css';
 import { useState, useEffect } from "react";
 import { Splash } from '../splash/splash';
 import { About } from "../about/about";
+import { Links } from "../links/links";
 import { Projects } from "../projects/projects";
 import { Contact } from "../contact/contact";
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
@@ -34,6 +35,7 @@ function App() {
 			<About></About>
 			<Projects></Projects>
 			<Contact></Contact>
+      <Links></Links>
 		</div>
 	);
 }

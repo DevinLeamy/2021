@@ -1,0 +1,26 @@
+.links-container {
+  margin-top: 200px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.links-container {
+}
+
+.links-container-header {
+  font-size: 25px;
+  font-family: 'poppins-semibold';
+}
+
+.link-container {
+  margin-top: 20px;
+}
+
+.link-header {
+  font-size: 17px;
+}
+
+.link-url {
+  font-size: 15px;
+  color: gray;
+}
