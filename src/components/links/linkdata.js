@@ -6,6 +6,14 @@ const LinkData = [
   {
     name: "Makefile quick-reference",
     url: "http://web.mit.edu/gnu/doc/html/make_toc.html"
+  },
+  {
+    name: "Learn OpenGL",
+    url: "https://learnopengl.com/"
+  },
+  {
+    name: "OS Development Wiki",
+    url: "https://wiki.osdev.org/Expanded_Main_Page"
   }
 ];
 
