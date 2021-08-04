@@ -4,9 +4,9 @@ import "./links.css";
 const Links = () => {
   const renderLink = (link) => {
     return (
-      <div key="{link.url}" className="link-container">
+      <div key={link.url} className="link-container">
         <div className="link-header">{link.name}</div>
-        <a alt="{link.name}" href="{link.url}" className="link-url"><u>{link.url}</u></a>
+        <a alt={link.name} href={link.url} className="link-url"><u>{link.url}</u></a>
       </div>
     );
   };
