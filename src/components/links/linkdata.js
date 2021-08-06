@@ -14,6 +14,10 @@ const LinkData = [
   {
     name: "OS Development Wiki",
     url: "https://wiki.osdev.org/Expanded_Main_Page"
+  },
+  {
+    name: "Amethyst window manager",
+    url: "https://ianyh.com/amethyst/"
   }
 ];
 
