@@ -18,6 +18,10 @@ const LinkData = [
   {
     name: "Amethyst window manager",
     url: "https://ianyh.com/amethyst/"
+  },
+  {
+    name: "Tedx: Peter Sage on Improvement",
+    url: "https://www.youtube.com/watch?v=v1ojZKWfShQ"
   }
 ];
 
