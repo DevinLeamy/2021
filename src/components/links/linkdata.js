@@ -20,7 +20,7 @@ const LinkData = [
     url: "https://ianyh.com/amethyst/"
   },
   {
-    name: "Tedx: Peter Sage on Improvement",
+    name: "TEDx - Peter Sage on Improvement",
     url: "https://www.youtube.com/watch?v=v1ojZKWfShQ"
   }
 ];
