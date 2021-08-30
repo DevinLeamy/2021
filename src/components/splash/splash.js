@@ -23,7 +23,7 @@ export const Splash = () => {
               I've been <span className="text-blue">Vim</span><i>ing</i> for a year
             </li>
             <li id="about-item-3">
-              Programming is my buyenlarge my favorite thing TODO
+              Programming is my buy and large my favorite thing TODO
             </li>
             <li id="about-item-4">
               And I'm from Calgary, Alberta 
