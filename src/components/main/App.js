@@ -9,7 +9,8 @@ import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import Brightness2Icon from '@material-ui/icons/Brightness2';
 
 // Themes
-const DARK = "rgb(29, 29, 29)";
+// const DARK = "rgb(29, 29, 29)";
+const DARK = "rgb(13, 17, 21)";
 const LIGHT = "rgb(252, 252, 252)";
 
 function App() {

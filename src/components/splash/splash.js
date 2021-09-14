@@ -16,17 +16,16 @@ export const Splash = () => {
           About me
           <ul className="intro-about-list">
             <li id="about-item-1">
-              I'm a Computer Science 
-              student at the University of Waterloo (class of 2025 represent)
+              I'm a 2A CS student at the University of Waterloo 
             </li>
             <li id="about-item-2">
-              I've been <span className="text-blue">Vim</span><i>ing</i> for a year
+              👋 I'm looking for <span className='text-blue'>Winter 2022</span> internships 👋
             </li>
             <li id="about-item-3">
-              Programming is my buy and large my favorite thing TODO
+              Programming is buy and large my favorite thing TODO
             </li>
             <li id="about-item-4">
-              And I'm from Calgary, Alberta 
+              And, I'm an avid fan of <span className='text-blue'>deep learning</span>, machine learning, full-stack web development, and a couple of others... 
             </li>
           </ul>
         </div>
